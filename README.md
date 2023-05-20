@@ -14,6 +14,8 @@ For more information see the [TC39 proposal process.](https://tc39.es/process-do
 
 * Brandon McConnell ([@brandonmcconnell](https://github.com/brandonmcconnell))
 
+# Proposal
+
 ## Introduction
 
 This proposal introduces the `Array.prototype.ap` method to ECMAScript, based on the concept of [applicative functors](https://github.com/fantasyland/fantasy-land#apply) found in functional programming. Functionally, this method works inversely to the existing `Array.prototype.map` method, allowing for simpler application of multiple functions to a single argument.
